@@ -7,5 +7,18 @@ let config = {
     scene: [play]
 }
 
+let textConfig = {
+    fontFamily: 'Impact',
+    fontSize: '20px',
+    //backgroundColor: '#FFFFFF',
+    color: '#000000',
+    align: 'right',
+    padding: {
+        top: 5,
+        bottom: 5,
+    },
+    fixedWidth: 0
+}
+
 let game = new Phaser.Game(config);
 let keyW, keyA, keyS, keyD;
